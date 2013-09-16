@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: Blackberry Z10
+  description: Best BB phone on the market to date
+  image_url: MyString
+  price: 650.00
+
+two:
+  title: Galaxy S4
+  description: Best Samsung on the market to date
+  image_url: MyString
+  price: 700.00
