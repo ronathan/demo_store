@@ -1,4 +1,8 @@
 DemoStore::Application.routes.draw do
+  resources :line_items
+
+  resources :carts
+
   resources :products
 
   # The priority is based upon order of creation: first created -> highest priority.

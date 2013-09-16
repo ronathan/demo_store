@@ -40,6 +40,11 @@ class ProductTest < ActiveSupport::TestCase
 		assert product.valid?
 	end
 
+	test "should be able to create a valid product with no errors thrown" do
+	  product = Product.new(title: "Rails", description: "Valid description", image_url: "image.jpg", price: 20.00)
+	  assert_silent { "no stdout ir stderr" }
+	end
+
 	# test "price cannot save a number with three decimals" do
 	# 	product = products(:one)
 	# 	product.price = 10.209
